@@ -1,4 +1,4 @@
-#Current-Programming-Application
+# Current-Programming-Application
 
 This repository consists of the activities and projects that was made in our current programming application class. The programming application used is Python.
 
@@ -32,3 +32,38 @@ Reverse Complement
 		A is complement ot T. T is a complement of A. C is a complement of G. G is a complement of C.
 	- For this exercise you need to complete the reverse complement function that takes a DNA string and returns the reverse complement.
 	- Note: You need to take care of lower and upper case. And if a sequence contains some invalid characters you need to return 'Invalid sequence'. You can use str[::-1] to reverse the string.
+
+# July 21, 2018
+Inventory
+Given the following dictionary:
+
+inventory = {
+	'gold' : 500,
+	'pouch' : ['flint', 'twine', 'gemstone'],
+	'backpack' : ['xylophone', 'dagger', 'bedroll', 'bead loaf']
+}
+
+Do the following:
+Add a key to inventory called 'pocket'.
+Set the value of 'pocket' to be a list consisting of the strings 'seashell', 'strange berry', and 'lint'.
+Sort the items in the list stored under the 'backpack' key.
+Then remove dagger from the list of items stored under the 'backpack' key.
+Add 50 to the number stored under the 'gold' key.
+Sample run: {'pocket': ['seashell', 'strange berry', 'lint'], 'backpack': ['bedroll', 'bread loaf', 'xylophone'], 'pouch': ['flint', 'twine', 'gemstone'], 'gold': 550}
+
+LetterCount
+-Count the occurrence of each letter in a string and save the result in a dictionary. 
+-The function d.get(key, default) might be useful
+
+Letter and Digit count
+	- Write a funtion that accepts a sentence and calculate the number of letters and digits. Save the counts in a dictionary.
+	- Use function available on string to check whether a character is a letter of digit.
+
+Permutation
+	- In mathematics, the notion of permutation relates to the act of arranging all the members of a set into some sequence or order. Create a list comprehension expression permutes even numbers from 0 through 4 with odd numbers from 0 through 4.
+
+RemoveElements
+	- Using list comprehension, create a new list without the values in even indices numbers in [12,24,35,70,88,120,155].
+
+VowelCount
+	- Using any functional programming tool, create a python script that will count the number of vowels in a text file. 
