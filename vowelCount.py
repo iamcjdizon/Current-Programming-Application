@@ -10,5 +10,6 @@ def vowelCount(bla):
 
 
 word = open("sample", "r")
+#L = reuce (vowelCount, word)
 L= vowelCount(word)
 print(L)

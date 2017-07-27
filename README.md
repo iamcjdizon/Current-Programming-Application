@@ -33,7 +33,7 @@ Reverse Complement
 	- For this exercise you need to complete the reverse complement function that takes a DNA string and returns the reverse complement.
 	- Note: You need to take care of lower and upper case. And if a sequence contains some invalid characters you need to return 'Invalid sequence'. You can use str[::-1] to reverse the string.
 
-# July 21, 2018
+# July 21, 2017
 Inventory
 Given the following dictionary:
 
