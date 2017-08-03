@@ -67,3 +67,20 @@ RemoveElements
 
 VowelCount
 	- Using any functional programming tool, create a python script that will count the number of vowels in a text file. 
+
+# AUGUST 02, 2017 - CODEWARS
+Matrices: Adding Diagonal Products
+	- We have a square matrix M of dimension n x n that has positive and negative numbers in the ranges [-9,-1] and [0,9],( the value 0 is excluded).
+
+	- We want to add up all the products of the elements of the diagonals UP-LEFT to DOWN-BOTTOM, that is the value ofsum1; and the elements of the diagonals UP-RIGHT to LEFT-DOWN and that is sum2. Then, as a final result, the value of sum1 - sum2.
+
+Base-2
+	- Negative-base systems can accommodate all the same numbers as standard place-value systems, but both positive and negative numbers are represented without the use of a minus sign (or, in computer representation, a sign bit); this advantage is countered by an increased complexity of arithmetic operations.
+
+	- To help understand, the first eight digits (in decimal) of the Base(-2) system is:
+	[1, -2, 4, -8, 16, -32, 64, -128]
+
+Direction Reduction
+	-Write a function dirReduc which will take an array of strings and returns an array of strings with the needless directions removed (W<->E or S<->N side by side).
+
+	-The Haskell version takes a list of directions with data Direction = North | East | West | South. The Clojure version returns nil when the path is reduced to nothing. The Rust version takes a slice of enum Direction {NORTH, SOUTH, EAST, WEST}.
