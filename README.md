@@ -35,7 +35,7 @@ Fibonacci
 
 # July 21, 2017
 1. Inventory
-*Given the following dictionary:
+* Given the following dictionary:
 
 inventory = {
 	'gold' : 500,
@@ -43,14 +43,14 @@ inventory = {
 	'backpack' : ['xylophone', 'dagger', 'bedroll', 'bead loaf']
 }
 
-*Do the following:
-.*Add a key to inventory called 'pocket'.
-.*Set the value of 'pocket' to be a list consisting of the strings 'seashell', 'strange berry', and 'lint'.
-.*Sort the items in the list stored under the 'backpack' key.
-.*Then remove dagger from the list of items stored under the 'backpack' key.
-.*Add 50 to the number stored under the 'gold' key.
+* Do the following:
+.* Add a key to inventory called 'pocket'.
+.* Set the value of 'pocket' to be a list consisting of the strings 'seashell', 'strange berry', and 'lint'.
+.* Sort the items in the list stored under the 'backpack' key.
+.* Then remove dagger from the list of items stored under the 'backpack' key.
+.* Add 50 to the number stored under the 'gold' key.
 
-*Sample run: {'pocket': ['seashell', 'strange berry', 'lint'], 'backpack': ['bedroll', 'bread loaf', 'xylophone'], 'pouch': ['flint', 'twine', 'gemstone'], 'gold': 550}
+* Sample run: {'pocket': ['seashell', 'strange berry', 'lint'], 'backpack': ['bedroll', 'bread loaf', 'xylophone'], 'pouch': ['flint', 'twine', 'gemstone'], 'gold': 550}
 
 2. LetterCount
 * Count the occurrence of each letter in a string and save the result in a dictionary. 
