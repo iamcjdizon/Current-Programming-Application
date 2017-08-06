@@ -4,10 +4,10 @@ This repository consists of the activities and projects that was made in our cur
 
 # June 30, 2017
 Hours, Minutes, Seconds
-	* Write a program a program to convert an input number of seconds (integer) into hours, minutes, and seconds. Output the result.
+* Write a program a program to convert an input number of seconds (integer) into hours, minutes, and seconds. Output the result.
 
 4 and 7
-	* Print all the numbers between 1 and n(inclusive) that are both divisible 4 and multiple of 7. N is user input.
+* Print all the numbers between 1 and n(inclusive) that are both divisible 4 and multiple of 7. N is user input.
 
 Products of Digits
 	* Ask the user to input a postive integer. Compute then print the product of its digits.
