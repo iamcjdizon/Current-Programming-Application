@@ -69,7 +69,7 @@ inventory = {
 6. VowelCount
 * Using any functional programming tool, create a python script that will count the number of vowels in a text file. 
 
-# AUGUST 02, 2017 - CODEWARS
+# August 02, 2017 - CODEWARS
 1. Matrices: Adding Diagonal Products
 * We have a square matrix M of dimension n x n that has positive and negative numbers in the ranges [-9,-1] and [0,9],( the value 0 is excluded).
 
@@ -85,3 +85,35 @@ inventory = {
 * Write a function dirReduc which will take an array of strings and returns an array of strings with the needless directions removed (W<->E or S<->N side by side).
 
 * The Haskell version takes a list of directions with data Direction = North | East | West | South. The Clojure version returns nil when the path is reduced to nothing. The Rust version takes a slice of enum Direction {NORTH, SOUTH, EAST, WEST}.
+
+# August 4, 2017 - PRELIM EXAM
+1. OddPrime
+* Primes that have only odd digits are pure odd digits primes, obvious but necessary definition. Examples of pure odd digit primes are: 11, 13, 17, 19, 31... If a prime has an even digit, it does not belong to pure odd digits prime no matter the amount of odd digits that may have. Create a function PODP that receives any number of unique positive integer n, and returns a dictionary like the one below:
+	{n1: [x,y,z], n2: [x,y,z], n3: [x,y,z]}
+
+	where x is the number of pure odd digits primes below n, y is the largest pure odd digits prime smaller than n, and z is smallest pure odd digits prime higher than n. 
+
+* To do this, you need to create a function prime_odd that takes a number and returns True if the given number is pure odd digit prime.
+>>> PODP(20)
+>>> {20: [7, 19, 31]}
+///7, because there are 7 pure odd digits primes below 20: 3, 5, 7, 11, 13, 17, 19
+19 is the largest podp below n
+31 is the smallest podp greater than n///
+>>> PODP(20, 40)
+>>> {20: [7, 19, 31], 40: [9, 37, 53]}
+>>> PODP()
+>>> {}
+
+* To get full points, (1) use a functional programming tool to get x, (2) use list indexing to get y
+ 
+2. listCompre
+>>> print _______ #numbers 0 to n-1
+>>> [0, 1, 2, 3, 4]
+>>> print _______ #square of the numbers 0 to n-1
+>>> [0, 1, 4, 9, 16]
+>>> print _______ #square of the number from -(n-1) to (n-1)
+>>> [16, 9, 4, 1, 0, 1, 4, 9, 16]
+>>> print _______ #factors of n (n=42)
+>>> [1, 2, 3, 6, 7, 14, 21, 42]
+>>> print _______ #square of the factors of n (n=42)
+>>> [1, 4, 9, 36, 49, 196, 441, 1764]
