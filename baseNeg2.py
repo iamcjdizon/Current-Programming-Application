@@ -1,4 +1,6 @@
 def toBaseNeg2(d):
+	if d==0:
+		return '0'
 	a=""
 	while(d!=0):
 		rem = d % -2
