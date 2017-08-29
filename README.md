@@ -117,3 +117,45 @@ inventory = {
 >>> [1, 2, 3, 6, 7, 14, 21, 42]
 >>> print _______ #square of the factors of n (n=42)
 >>> [1, 4, 9, 36, 49, 196, 441, 1764]
+
+# August 25, 2017
+0. I put it under ex250817.py
+1. Fraction 
+* Define a class Fraction that has numerator and denominator attributes. It also has a method simplifly that prints the fraction in its simplest form. You should be able to print the instance as num/den.
+>>> f1 = Fraction(5,10)
+>>> print f1 
+>>> 5/10
+>>> print f1.simplify()
+>>> 1/2
+
+2. Overloading Operators
+>>> f1 = Fraction(2,3)
+>>> f2 = Fraction(1,4)
+>>> print f1 + f2
+>>> 11/12
+>>> print f1 + f2
+>>> 5/12
+>>> print f1*f2
+>>> 1/6
+>>> print f1/f4
+>>> 8/3
+ 
+* sample operator overloading *
+class Vector:
+   def __init__(self, a,b):
+      self.a = a
+      self.b = b
+   def __str__(self):
+      return 'Vector(' + self.a + ',' + self.b +')'
+   def __add__(self,other):
+      return Vector(self.a + other.a, self.b + other.b)
+ 
+* samle run *
+>>> v1 = Vector(1,2)
+>>> v2 = Vector(3,4)
+>>> print v1 + v2
+>>> Vector(4,6)
+ 
+3. Create a class Polygon with no_sides and length_sides as attributes. Your Polygon should have a method perimeter that returns the perimeter of the polygon.
+
+4. Create a class Quadrilateral that inherits from Polygon. Your Quadrilateral should have a method displayKind that returns the ff: “square” (if all sides equal), “rectangle” (two opposite sides equal), “kites” (two adjacent sides equal), “other” (otherwise)
